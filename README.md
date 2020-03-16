@@ -17,3 +17,7 @@
 ## European CDC
 
 - https://www.ecdc.europa.eu/en/novel-coronavirus-china
+
+## WHO
+
+- https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
