@@ -13,3 +13,7 @@
 ### Graphical Representation
 - https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
 - https://www.worldometers.info/coronavirus/?#countries
+
+## European CDC
+
+- https://www.ecdc.europa.eu/en/novel-coronavirus-china
