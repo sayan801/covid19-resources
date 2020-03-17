@@ -15,9 +15,17 @@
 - https://www.worldometers.info/coronavirus/?#countries
 - https://www.bing.com/covid?
 
+## CDC USA
+
+- https://www.cdc.gov/coronavirus/2019-ncov/index.html
+
 ## European CDC
 
 - https://www.ecdc.europa.eu/en/novel-coronavirus-china
+
+## UK NHS 
+
+- https://www.england.nhs.uk/coronavirus/primary-care/
 
 ## WHO
 
