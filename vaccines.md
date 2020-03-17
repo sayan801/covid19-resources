@@ -1,1 +1,2 @@
-https://time.com/5799718/coronavirus-vaccine-antiviral-studies/
+- https://time.com/5799718/coronavirus-vaccine-antiviral-studies/
+- https://people.com/health/infected-diamond-princess-cruise-passengers-among-first-patients-to-undergo-covid-19-drug-trial/
