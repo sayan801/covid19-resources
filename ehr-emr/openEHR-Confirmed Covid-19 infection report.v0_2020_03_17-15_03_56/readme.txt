@@ -1,0 +1,2 @@
+This is the template file set for template openEHR-Confirmed Covid-19 infection report.v0( 4ad80730-73e1-4ef6-a00b-716f14dd467f, revision 8), exported from the Clinical Knowledge Manager.
+Export time: Tue Mar 17 15:03:56 CET 2020

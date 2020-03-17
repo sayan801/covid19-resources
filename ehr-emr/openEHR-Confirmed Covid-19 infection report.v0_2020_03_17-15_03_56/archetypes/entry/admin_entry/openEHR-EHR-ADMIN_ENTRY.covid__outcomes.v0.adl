@@ -1,0 +1,120 @@
+﻿archetype (adl_version=1.4; uid=e52933e8-52c0-4ccc-94e1-be07c218c87c)
+	openEHR-EHR-ADMIN_ENTRY.covid__outcomes.v0
+
+concept
+	[at0000]	-- COVID outcomes
+language
+	original_language = <[ISO_639-1::en]>
+description
+	original_author = <
+		["date"] = <"2020-03-10">
+	>
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+			copyright = <"© openEHR Foundation">
+		>
+	>
+	lifecycle_state = <"in_development">
+	other_contributors = <>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"32771CE67CA0E5767E47BE27029822A2">
+		["build_uid"] = <"dee4ffcd-868a-4753-a063-c6973d69aa1d">
+		["revision"] = <"0.0.1-alpha">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- COVID outcomes
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..1} matches {    -- Health outcome
+						value matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0003,    -- Recovered/healthy
+									at0004,    -- Not recovered
+									at0005,    -- Death
+									at0006]    -- Unknown
+								}
+							}
+							DV_TEXT matches {*}
+						}
+					}
+					ELEMENT[at0007] occurrences matches {0..1} matches {    -- Date of release or death
+						value matches {
+							DV_DATE_TIME matches {*}
+						}
+					}
+					ELEMENT[at0008] occurrences matches {0..1} matches {    -- Total number of contacts
+						value matches {
+							DV_COUNT matches {*}
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::at0009]    -- Unknown
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"COVID outcomes">
+					description = <"COVID_ outcomes">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Health outcome">
+					description = <"*">
+				>
+				["at0003"] = <
+					text = <"Recovered/healthy">
+					description = <"Recovered/healthy">
+				>
+				["at0004"] = <
+					text = <"Not recovered">
+					description = <"Not recovered">
+				>
+				["at0005"] = <
+					text = <"Death">
+					description = <"Death">
+				>
+				["at0006"] = <
+					text = <"Unknown">
+					description = <"Unknown">
+				>
+				["at0007"] = <
+					text = <"Date of release or death">
+					description = <"*">
+				>
+				["at0008"] = <
+					text = <"Total number of contacts">
+					description = <"*">
+				>
+				["at0009"] = <
+					text = <"Unknown">
+					description = <"Unknown">
+				>
+			>
+		>
+	>

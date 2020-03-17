@@ -1,0 +1,177 @@
+<templateFileSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.openehr.org/v1">
+   <cid>1013.26.272</cid>
+   <versionAsset>8</versionAsset>
+   <templateName>openEHR-Confirmed Covid-19 infection report.v0</templateName>
+   <templateId>4ad80730-73e1-4ef6-a00b-716f14dd467f</templateId>
+   <rootArchetypeId>openEHR-EHR-COMPOSITION.report.v1</rootArchetypeId>
+   <creationTime>10-Mar-2020</creationTime>
+   <modificationTime>10-Mar-2020</modificationTime>
+   <directLink>https://ckm.openehr.org/ckm/templates/1013.26.272/8</directLink>
+   <logMessage>Fixed term mismatch
+      Fixed coding issue
+      Code fix?
+      code fix agan
+      andagain
+      arrgh
+   </logMessage>
+   <ckmResource>
+      <cid>1013.1.4415</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.organisation_cc.v0</resourceMainId>
+      <resourceMainDisplayName>Organisation</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:04+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:04+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4415/1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4417</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-ADMIN_ENTRY.covid_19_admission.v0</resourceMainId>
+      <resourceMainDisplayName>Covid 19 Admission</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:10+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:10+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4417/1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.2965</cid>
+      <versionAsset>15</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.occupation_summary.v1</resourceMainId>
+      <resourceMainDisplayName>Occupation summary</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2017-09-29T09:21:05+0200</creationTime>
+      <modificationTime>2019-03-14T10:40:28+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.2965/15</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4416</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-ADMIN_ENTRY.covid__outcomes.v0</resourceMainId>
+      <resourceMainDisplayName>COVID outcomes</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:06+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:06+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4416/1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4400</cid>
+      <versionAsset>3</versionAsset>
+      <resourceMainId>openEHR-EHR-OBSERVATION.travel_history.v0</resourceMainId>
+      <resourceMainDisplayName>Travel trip history</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-07T01:41:45+0100</creationTime>
+      <modificationTime>2020-03-09T23:33:44+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4400/3</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4399</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.symptom_sign-cvid.v0</resourceMainId>
+      <resourceMainDisplayName>Covid-19 symptom</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-07T01:41:33+0100</creationTime>
+      <modificationTime>2020-03-07T17:48:59+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4399/2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4402</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.outbreak_exposure.v0</resourceMainId>
+      <resourceMainDisplayName>Location-based exposure</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-07T01:41:51+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:10+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4402/2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4420</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.procedure_summary_covid.v0</resourceMainId>
+      <resourceMainDisplayName>COVID - procedure summary</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:19+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:19+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4420/1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.2191</cid>
+      <versionAsset>16</versionAsset>
+      <resourceMainId>openEHR-EHR-OBSERVATION.laboratory_test_result.v1</resourceMainId>
+      <resourceMainDisplayName>Laboratory test result</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2015-07-20T17:46:31+0200</creationTime>
+      <modificationTime>2019-09-24T11:23:26+0200</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.2191/16</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.2380</cid>
+      <versionAsset>22</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.occupation_record.v1</resourceMainId>
+      <resourceMainDisplayName>Occupation record</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2016-01-11T13:44:25+0100</creationTime>
+      <modificationTime>2019-03-14T10:42:47+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.2380/22</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.68</cid>
+      <versionAsset>15</versionAsset>
+      <resourceMainId>openEHR-EHR-OBSERVATION.story.v1</resourceMainId>
+      <resourceMainDisplayName>Story/History</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2008-05-15T08:21:15+0200</creationTime>
+      <modificationTime>2018-08-14T07:27:28+0200</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.68/15</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.677</cid>
+      <versionAsset>8</versionAsset>
+      <resourceMainId>openEHR-EHR-COMPOSITION.report.v1</resourceMainId>
+      <resourceMainDisplayName>Report</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2010-04-14T05:36:51+0200</creationTime>
+      <modificationTime>2019-07-24T15:02:56+0200</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.677/8</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.631</cid>
+      <versionAsset>8</versionAsset>
+      <resourceMainId>openEHR-EHR-SECTION.adhoc.v1</resourceMainId>
+      <resourceMainDisplayName>Ad hoc heading</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2010-03-17T19:10:25+0100</creationTime>
+      <modificationTime>2015-05-21T14:13:27+0200</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.631/8</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4419</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-EVALUATION.comorbidity_summary_covid.v0</resourceMainId>
+      <resourceMainDisplayName>Condition summary</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:17+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:17+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4419/1</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.1745</cid>
+      <versionAsset>2</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.person_anonymised_parent.v0</resourceMainId>
+      <resourceMainDisplayName>Anonymised person (PARENT)</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2014-07-28T17:05:14+0200</creationTime>
+      <modificationTime>2020-03-10T02:25:13+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.1745/2</directLink>
+   </ckmResource>
+   <ckmResource>
+      <cid>1013.1.4418</cid>
+      <versionAsset>1</versionAsset>
+      <resourceMainId>openEHR-EHR-CLUSTER.address_cc.v0</resourceMainId>
+      <resourceMainDisplayName>Address</resourceMainDisplayName>
+      <resourceType>ARCHETYPE</resourceType>
+      <creationTime>2020-03-10T02:25:16+0100</creationTime>
+      <modificationTime>2020-03-10T02:25:16+0100</modificationTime>
+      <directLink>https://ckm.openehr.org/ckm/archetypes/1013.1.4418/1</directLink>
+   </ckmResource>
+</templateFileSet>

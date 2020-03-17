@@ -1,0 +1,96 @@
+﻿archetype (adl_version=1.4; uid=f0d0389d-874f-482e-a1c3-6c7c09eae7de)
+	openEHR-EHR-ADMIN_ENTRY.covid_19_admission.v0
+
+concept
+	[at0000]	-- Covid 19 Admission
+language
+	original_language = <[ISO_639-1::en]>
+description
+	original_author = <
+		["date"] = <"2020-03-09">
+	>
+	details = <
+		["en"] = <
+			language = <[ISO_639-1::en]>
+			purpose = <"">
+			use = <"">
+			misuse = <"">
+			copyright = <"© openEHR Foundation">
+		>
+	>
+	lifecycle_state = <"in_development">
+	other_contributors = <>
+	other_details = <
+		["licence"] = <"This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.">
+		["custodian_organisation"] = <"openEHR Foundation">
+		["original_namespace"] = <"org.openehr">
+		["original_publisher"] = <"openEHR Foundation">
+		["custodian_namespace"] = <"org.openehr">
+		["MD5-CAM-1.0.1"] = <"5FA734FED8699A2F4621376CC8C3498E">
+		["build_uid"] = <"caf0aa9c-24be-4ba7-bbc6-5bd178527623">
+		["revision"] = <"0.0.1-alpha">
+	>
+
+definition
+	ADMIN_ENTRY[at0000] matches {    -- Covid 19 Admission
+		data matches {
+			ITEM_TREE[at0001] matches {    -- Item tree
+				items cardinality matches {0..*; unordered} matches {
+					ELEMENT[at0002] occurrences matches {0..1} matches {    -- Hospital admission status
+						value matches {
+							DV_CODED_TEXT matches {
+								defining_code matches {
+									[local::
+									at0003,    -- YES
+									at0004,    -- NO
+									at0005]    -- UNKNOWN
+								}
+							}
+						}
+					}
+					ELEMENT[at0006] occurrences matches {0..1} matches {    -- Date first admitted
+						value matches {
+							DV_DATE_TIME matches {*}
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+ontology
+	term_definitions = <
+		["en"] = <
+			items = <
+				["at0000"] = <
+					text = <"Covid 19 Admission">
+					description = <"Covid_19_Admission">
+				>
+				["at0001"] = <
+					text = <"Item tree">
+					description = <"@ internal @">
+				>
+				["at0002"] = <
+					text = <"Hospital admission status">
+					description = <"*">
+				>
+				["at0003"] = <
+					text = <"YES">
+					description = <"The patient was admitted to hospital.">
+				>
+				["at0004"] = <
+					text = <"NO">
+					description = <"The patient was not admitted to hospital.">
+				>
+				["at0005"] = <
+					text = <"UNKNOWN">
+					description = <"It is not known if the patient was admitted to hospital.">
+				>
+				["at0006"] = <
+					text = <"Date first admitted">
+					description = <"*">
+				>
+			>
+		>
+	>
