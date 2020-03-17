@@ -13,6 +13,7 @@
 ### Graphical Representation
 - https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
 - https://www.worldometers.info/coronavirus/?#countries
+- https://www.bing.com/covid?
 
 ## European CDC
 
@@ -22,3 +23,7 @@
 
 - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
 - https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public
+
+
+## Company Guidelines
+- https://blog.google/inside-google/company-announcements/covid-19-how-were-continuing-to-help/
