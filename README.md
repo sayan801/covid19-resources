@@ -10,7 +10,9 @@
 
 
 ## World News 
-### Graphical Representation
+- https://www.kevinmd.com/blog/2020/03/a-covid-19-coronavirus-update-from-concerned-physicians.html
+
+## Graphical Representation
 - https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
 - https://www.worldometers.info/coronavirus/?#countries
 - https://www.bing.com/covid?
