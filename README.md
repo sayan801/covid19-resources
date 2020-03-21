@@ -7,6 +7,8 @@
 - Press Information - https://pib.gov.in/newsite/pmreleases.aspx?mincode=31
 - http://dhs.kerala.gov.in/public-health-2019-n-corona-virus/#
 
+### West Bengal Govt
+- https://www.wbhealth.gov.in/
 
 
 ## World News 
