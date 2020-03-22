@@ -13,3 +13,4 @@
 # Elon Musk
 
 - https://docs.google.com/document/d/e/2PACX-1vTi-g18ftNZUMRAj2SwRPodtscFio7bJ7GdNgbJAGbdfF67WuRJB3ZsidgpidB2eocFHAVjIL-7deJ7/pub
+- https://pubchem.ncbi.nlm.nih.gov/compound/chloroquine#section=Mass-Spectrometry
