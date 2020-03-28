@@ -6,6 +6,8 @@
 - Advisory: Travel and Visa restrictions related to COVID-19 - https://boi.gov.in/content/advisory-travel-and-visa-restrictions-related-covid-19
 - Press Information - https://pib.gov.in/newsite/pmreleases.aspx?mincode=31
 - http://dhs.kerala.gov.in/public-health-2019-n-corona-virus/#
+- http://www.ijmr.org.in/aheadofprint_cv.asp
+- https://covid.icmr.org.in/index.php/important-links#
 
 ### West Bengal Govt
 - https://www.wbhealth.gov.in/
